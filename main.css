@@ -39,10 +39,55 @@ body {
     color: white;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
+.plan__annotation{
+    background: white;
+    color: #19b84c;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.plan__features{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.plan__feature{
+    margin: 8px 0;
+}
+.plan__title{
+    color: #0e4f1f;
+}
+.plan__price{
+    color: rgb(132, 132, 132);
+}
+.plan--highlighted .plan__title{
+    color: white;
+}
+.plan--highlighted .plan__price{
+    color: #0e4f1f;
+}
+.button{
+    background-color: #0e4f1f;
+    font: inherit;
+    font-weight: bold;
+    border: 1.5px #0e4f1f solid;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.button:hover,
+.button:active{
+    background-color: white;
+    color: #0e4f1f;
+}
+.button:focus{
+    outline: none;
+}
 .main-header {
     width: 100%;
     background: #2ddf5c;
     padding: 8px 16px;
+   
 }
 
 .main-header > div {
