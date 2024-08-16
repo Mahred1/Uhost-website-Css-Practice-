@@ -83,6 +83,40 @@ body {
 .button:focus{
     outline: none;
 }
+#key-features{
+    background-color: #ff1b68;
+    padding: 16px;
+    margin-top: 80px;
+}
+#key-features .section-title{
+    color: white;
+    margin: 30px;
+}
+.key-feature{
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+
+}
+.key-feature__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  
+}
+.key-feature__description{
+    color: white;
+    font-weight: bold;
+}
+.key-feature__image{
+    background-color: pink;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 2px solid #60343b;
+    margin: auto;
+}
 .main-header {
     width: 100%;
     background: #2ddf5c;
@@ -145,4 +179,27 @@ body {
     color: #ff1b68;
     background: white;
     border: none;
+}
+.main-footer{
+    background-color: black;
+    padding: 20px;
+    
+}
+.main-footer__links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.main-footer__link{
+    display: inline-block;
+    margin: 0 10px;
+}
+.main-footer__link a{
+    text-decoration: none;
+    color: white;
+}
+.main-footer__link a:hover,
+.main-footer__link a:active{
+    color: #ccc;
 }
