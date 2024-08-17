@@ -8,6 +8,8 @@ body {
 }
 
 .main-header {
+    position: fixed;
+    top: 0;
     width: 100%;
     background: #2ddf5c;
     padding: 8px 16px;
@@ -69,7 +71,6 @@ body {
     background: white;
     border: none;
 }
-
 .main-footer {
     background: black;
     padding: 32px;
