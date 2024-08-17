@@ -15,7 +15,9 @@
     color: white;
     font-family: 'Anton', sans-serif;
 }
-
+.plan__list{
+    margin: auto;
+}
 .plan{
     background: #d5ffdc;
     padding: 16px;
