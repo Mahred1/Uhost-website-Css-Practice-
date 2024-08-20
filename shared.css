@@ -8,7 +8,7 @@ body {
 }
 
 .main-header {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     background: #2ddf5c;
@@ -26,8 +26,14 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
+    width: 22px;
+    display: inline-block;
 }
+.main-header__brand img{
+    width: 100%;
+    height: 100%;
 
+}
 .main-nav {
     display: inline-block;
     text-align: right;
