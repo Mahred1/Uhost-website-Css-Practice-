@@ -31,6 +31,27 @@ body {
     display: inline-block;
     vertical-align: middle;
 }
+.toggle-button {
+  width: 3rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: middle;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-button__bar {
+  width: 100%;
+  height: 0.2rem;
+  background: black;
+  display: block;
+  margin: 0.5rem 0;
+}
 
 .main-header__brand {
     color: #0e4f1f;
@@ -39,6 +60,7 @@ body {
     font-size: 1.375rem;
     width: 1.375rem;
     display: inline-block;
+    vertical-align: middle;
 }
 .main-header__brand img{
     width: 100%;
@@ -48,7 +70,7 @@ body {
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 74px);
+    width: calc(100% - 122px);
     vertical-align: middle;
 }
 
@@ -121,7 +143,7 @@ body {
     color: #ccc;
 }
 .mobile-nav {
-    /* display: none; */
+    display: none;
     position: fixed;
     z-index: 101;
     top: 0;
