@@ -13,12 +13,15 @@ toggleButton.addEventListener('click',function(){
     mobileNav.classList.add('open');
     backdrop.classList.add('open');
 })
+if(backdrop){
 backdrop.addEventListener('click',function(){
     mobileNav.classList.remove('open');
     closeModal();
 });
+}
+if(modal){
 modal.addEventListener('click',closeModal);
-
+}
 function closeModal(){
     backdrop.classList.remove('open');
     modal.classList.remove('open');
