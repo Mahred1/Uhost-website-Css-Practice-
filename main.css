@@ -29,30 +29,26 @@
     #product-overview h1 {
         font-size: 1.8rem;
     }
-    .plan{
-        display: none;
-    }
 }
 
 .plan__list{
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
 .plan{
     background: #d5ffdc;
     padding: 1rem;
-    margin: 0.5rem;
-    display: inline-block;
+    margin: 0.5rem 0;
+    display: block;
     text-align: center;
-    vertical-align: middle;
-    width: 30%;
+    width: 100%;
 
 }
 .plan--highlighted{
     background-color: #19b84c;
     color: white;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5); */
 }
 .plan__annotation{
     background: white;
