@@ -20,22 +20,8 @@
     font-family: 'Anton', sans-serif;
     font-size: 1.6rem;
 }
-@media(min-width: 590px){
-    #product-overview{
-        height: 57vh;
-       
 
-    }
-    #product-overview h1 {
-        font-size: 1.8rem;
-    }
-}
 
-.plan__list{
-    width: 100%;
-    margin: auto;
-    text-align: center;
-}
 .plan{
     background: #d5ffdc;
     padding: 1rem;
@@ -161,3 +147,30 @@
     background: #ff5454;
     border-color: #ff5454;
   }
+  @media(min-width: 590px){
+    .plan__list{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        min-width: 39rem;
+        max-width: 59rem;
+    }
+    #product-overview{
+        height: 57vh;
+       
+
+    }
+    #product-overview h1 {
+        font-size: 1.8rem;
+    }
+    .plan{
+        display: inline-block;
+        width: 30%;
+        vertical-align: middle;
+        /* min-width: 45rem; */
+        
+    }
+    .plan__annotation{
+        font-size: 0.9rem;
+    }
+}
