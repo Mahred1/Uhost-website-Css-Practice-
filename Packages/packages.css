@@ -82,3 +82,25 @@ main{
 #premium .package__title{
     color: white;
 }
+@media (min-width:40rem){
+    main{
+        margin: 3rem auto;
+        max-width: 1500px;
+       }
+}
+@media (min-width:1500px){
+    main{
+        margin: 3rem auto;
+        max-width: 1500px;
+       }
+    .package{
+        border-left: 4px solid #023c02;
+    }
+    #free{
+        border-right: 4px solid #023c02;
+    }
+    #free:hover,
+    #free:active{
+        border-color: #ff889c;
+    }
+}
