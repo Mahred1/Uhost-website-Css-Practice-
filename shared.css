@@ -9,7 +9,7 @@ body {
 }
 main{
     min-height: calc(100vh - 14.65rem);
-    margin-top: 3.55rem;
+    margin-top: 3.5rem;
 }
 .back-drop{
     position: fixed;

@@ -19,7 +19,7 @@ select,input {
     width: 100%;
 }
 .signup-form select,
-.signup-form input{
+.signup-form input:not([type="checkbox"]){
     border: 1px solid #ccc;
     padding: 0.3rem 0.5rem;
     font: inherit;
@@ -34,6 +34,26 @@ select,input {
 .signup-form input[type="checkbox"] + label{
     display: inline-block;
     width: auto;
+    vertical-align: bottom;
+}
+.signup-form input[type="checkbox"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.signup-form input[type="checkbox"]{
+    width: 1rem;
+    border: 1px solid green;
+    height: 1rem;
+    background-color: white;
+}
+.signup-form input[type="checkbox"]:checked{
+    background-color: #2ddf5c;
+    background-image: url(../favicon.png);
+}
+.signup-form :invalid{
+    border-color: red !important;
+    background-color: #ff4545;
 }
 .signup-form button[type="submit"]{
     display: block;
