@@ -59,6 +59,12 @@ select,input {
     display: block;
     margin-top: 1rem;
 }
+.signup-form button[disabled]{
+    cursor: not-allowed;
+    border-color: #a1a1a1;
+    background-color: #ccc;
+    color: #a1a1a1;
+}
 @media(min-width:40rem){
     .signup-form{
         width: 30rem;
