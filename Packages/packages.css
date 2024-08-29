@@ -54,6 +54,7 @@ main{
     border: #023c02 solid 2px;
     padding: 1rem;
     font-size: 1.1rem;
+    font-style: italic;
 }
 #plus{
     background-color: #b9f8b9;
