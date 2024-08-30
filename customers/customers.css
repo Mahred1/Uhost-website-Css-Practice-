@@ -78,5 +78,9 @@ main{
    .testimonial{
     max-width: 1500px;
     margin: 3rem auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
    }
   }
