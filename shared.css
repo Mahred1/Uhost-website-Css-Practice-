@@ -3,15 +3,24 @@
 * {
     box-sizing: border-box;
 }
-
+html{
+    height: 100%;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     overflow-x: hidden;
+    display: grid;
+    grid-template-rows: 3.5rem auto 8rem;
+    grid-template-areas:"header" 
+                         "main"
+                         "footer";
+    height: 100%;
 }
 main{
-    min-height: calc(100vh - 14.65rem);
-    margin-top: 3.5rem;
+    /* min-height: calc(100vh - 14.65rem); */
+    /* margin-top: 3.5rem; */
+    grid-area:main;
 }
 .back-drop{
     position: fixed;
@@ -34,6 +43,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 .toggle-button {
   width: 3rem;
@@ -120,6 +130,7 @@ main{
     background: black;
     padding: 2rem;
     margin-top: 6rem;
+    grid-area: footer;
 }
 
 .main-footer__links {
