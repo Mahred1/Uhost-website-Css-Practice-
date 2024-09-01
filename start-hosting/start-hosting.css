@@ -3,6 +3,7 @@ main{
 }
 .signup-form{
     padding: 1rem;
+    display: grid;
 }
 .signup-title{
     text-align: center;
@@ -15,7 +16,6 @@ main{
 .signup-form label,
 select,input {
     display: block;
-    margin-top: 1rem;
     width: 100%;
 }
 .signup-form select,
@@ -52,8 +52,8 @@ select,input {
     background-image: url(../favicon.png);
 }
 .signup-form :invalid{
-    border-color: red !important;
-    background-color: #ff4545;
+    border-color: #eb0000 !important;
+    background-color: #feaeae;
 }
 .signup-form button[type="submit"]{
     display: block;
@@ -67,7 +67,16 @@ select,input {
 }
 @media(min-width:40rem){
     .signup-form{
-        width: 30rem;
         margin: auto;
+        width: 40rem;
+       grid-template-columns: 10rem auto;
+       grid-gap: 1rem 0.5rem;
+
+    }
+    .signup__check-box{
+        grid-column: span 2;
+    }
+    #title{
+        grid-column: span 2;
     }
 }
